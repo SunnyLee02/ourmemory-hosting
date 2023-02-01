@@ -7,4 +7,4 @@ class BucketList(models.Model):
     isFinished = models.BooleanField(default=False)
 
     class Meta:
-        ordering = ('-isFinished',)
+        ordering = ('isFinished',)
